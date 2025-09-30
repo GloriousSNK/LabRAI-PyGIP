@@ -6,29 +6,14 @@ integrated with [PyGIP](https://github.com/yushundong/PyGIP).
 
 The purpose of this example is to hold experimental scripts that reproduce and extend fingerprint-based verification of GNN models.
 
----
 
-## 📂 Structure
-
-```
-experimenta_examples/
-├── cli.py            # Command-line interface (entrypoint)
-├── attacker.py       # Attack + defense logic
-├── dataset.py        # Dataset loader
-├── models.py         # GNN model definitions
-├── fingerprints.py   # Fingerprint generation & univerifier
-├── verification_metrics.json # Verification metrics
-└── README.md         # This documentation
-```
-
----
 
 ## ▶️ Usage
 
 All experiments are launched via the CLI:
 
 ```bash
-python gnnfingers-examples/cli.py --dataset Cora --joint_steps 50
+python experimental_examples/cli.py --dataset Cora --joint_steps 50
 ```
 
 ### Common options
